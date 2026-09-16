@@ -42,12 +42,10 @@ export default defineUserConfig({
         selectLanguageName: '简体中文',
         navbar: [
           { text: '首页', link: '/' },
-          { text: '简介', link: '/introduction.html' },
           { text: '协议', link: '/protocols/' },
         ],
         sidebar: {
           '/': [
-            '/introduction.md',
             {
               text: '协议',
               link: '/protocols/',
@@ -88,12 +86,10 @@ export default defineUserConfig({
         selectLanguageName: 'English',
         navbar: [
           { text: 'Home', link: '/en/' },
-          { text: 'Introduction', link: '/en/introduction.html' },
           { text: 'Protocols', link: '/en/protocols/' },
         ],
         sidebar: {
           '/en/': [
-            '/en/introduction.md',
             {
               text: 'Protocols',
               link: '/en/protocols/',
