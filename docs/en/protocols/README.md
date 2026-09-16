@@ -1,7 +1,5 @@
 # Protocols
 
-The programming communication protocol codes are `A`, `B`, `C`, `D`, `E`, and `F`.
-
 - [Protocol A](/en/protocol-a/)
 - [Protocol B](/en/protocol-b/)
 - [Protocol C](/en/protocol-c/)
