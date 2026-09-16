@@ -1,0 +1,26 @@
+.content-search-box .suggestion .page-excerpt {
+  display: block;
+  margin-top: 0.25rem;
+  overflow: hidden;
+  color: var(--vp-c-text-mute);
+  font-size: 0.85em;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content-search-box .suggestions {
+  max-height: min(70vh, 36rem);
+  overflow-y: auto;
+}
+
+.content-search-box .search-more button {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border: 0;
+  background: transparent;
+  color: var(--vp-c-accent);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}

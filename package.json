@@ -1,0 +1,19 @@
+{
+  "name": "baofeng-gmsk-walkie-research",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "1.2.1",
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "@vuepress/plugin-catalog": "2.0.0-rc.131",
+    "@vuepress/plugin-search": "2.0.0-rc.131",
+    "@vuepress/theme-default": "2.0.0-rc.132",
+    "sass-embedded": "^1.100.0",
+    "vue": "latest",
+    "vuepress": "next"
+  }
+}
